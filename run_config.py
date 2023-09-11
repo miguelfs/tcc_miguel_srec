@@ -23,8 +23,10 @@ import random
 import gc
 
 # telegram notificaitons
-CHAT_ID = -1
-BOT_TOKEN = 'API_TOKEN'
+# CHAT_ID = -1
+# BOT_TOKEN = 'API_TOKEN'
+CHAT_ID = 'srec_miguel_bot'
+BOT_TOKEN = '6520128612:AAGUZa9F_A-Aszv98HAh4LvKPMBllPbFsPU'
 
 NOTIFY = False
 TELEGRAM_STATUS = False
