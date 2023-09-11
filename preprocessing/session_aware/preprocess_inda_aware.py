@@ -9,6 +9,7 @@ import subprocess
 FILE_TYPE_PREFIX = '.hdf'
 
 # keys
+TYPE_KEY = 'action'
 USER_KEY='owner_id'
 ITEM_KEY='user_id'
 TIME_KEY='created_at'

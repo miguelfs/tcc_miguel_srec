@@ -15,7 +15,7 @@ def get_credentials():
 
 
 def get_output_path():
-    output_path = os.path.join('data', 'inda', 'raw', 'inda.csv')
+    output_path = os.path.join('data', 'inda', 'raw', 'inda_barebone.csv')
     if not os.path.exists(output_path):
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
     return output_path

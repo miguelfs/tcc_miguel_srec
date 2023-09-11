@@ -1,3 +1,20 @@
+# Getting data from client:
+```
+conda activate srec37
+python inda/client/get_tracks_data.py
+```
+
+# Fixing the ids:
+```
+python inda/preprocess/preprocess_inda.py
+```
+
+# Run preprocessing:
+```
+python run_preprocessing.py conf/preprocess/session_based/single/inda.yml
+```
+
+
 <h1>session-rec</h1>
 <h2>Introduction</h2>
 
