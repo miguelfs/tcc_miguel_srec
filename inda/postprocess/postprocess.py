@@ -85,7 +85,6 @@ def do_recommendations_break(df, ids_map):
 def apply_map(input_file):
     # read the .csv file
     df = pd.read_csv(input_file, sep=';')
-    df = df.head(100)
     # get map path
     map_path = os.path.join('data', 'inda', 'raw', 'ids_map.pkl')
     # retrieve python map from pickle file
