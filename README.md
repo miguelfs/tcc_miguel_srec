@@ -1,19 +1,24 @@
 # Getting data from client:
-```
+```shell
 conda activate srec37
 python inda/client/get_tracks_data.py
 ```
 
 # Fixing the ids:
-```
+```shell
 python inda/preprocess/preprocess_inda.py
 ```
 
 # Run preprocessing:
-```
+```shell
 python run_preprocessing.py conf/preprocess/session_based/single/inda.yml
 ```
 
+# Postprocessing:
+
+```shell
+ python inda/postprocess/postprocess.py -f experiments/v1/next/inda/test_single_baselines_and_models_and_hybrids_inda-Saver@50.csv
+```
 
 <h1>session-rec</h1>
 <h2>Introduction</h2>

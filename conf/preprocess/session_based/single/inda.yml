@@ -7,11 +7,11 @@ data:
   prefix: inda
 
 filter:
-  min_item_support: 5
+  min_item_support: 2
   min_session_length: 2
 
 params:
-  days_test: 100
+  days_test: 7
 
 output:
   folder: data/inda/prepared/
