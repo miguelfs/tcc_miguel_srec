@@ -28,7 +28,7 @@ class Pop:
         self.item_key = item_key
         self.support_by_key = support_by_key
     
-    def fit(self, data):
+    def fit(self, data, test=None):
         '''
         Trains the predictor.
         

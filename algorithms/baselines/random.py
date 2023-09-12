@@ -8,7 +8,7 @@ class RandomPred:
     Initializes a random predcitor, which is a baseline predictor that gives back a random score for each item.  
     
     '''
-    def fit(self, data):
+    def fit(self, data, test=None):
         '''
         Dummy function for training.
         
