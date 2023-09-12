@@ -1,0 +1,10 @@
+- A tabela recomenda o mesmo usuário para várias posições.
+    - contras:
+        - O recomendador fica repetitivo.
+            - solução: filtrar os usuários que já contém tracks na sessão.
+
+- O modelo não contém markov, pop e random.
+    - contras:
+        - O baseline fica insipido.
+            - solução: adicionar markov, pois já avaliei que funciona. pop e random preciso avaliar.
+
