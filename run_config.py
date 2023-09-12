@@ -25,8 +25,10 @@ import gc
 # telegram notificaitons
 # CHAT_ID = -1
 # BOT_TOKEN = 'API_TOKEN'
-CHAT_ID = 'srec_miguel_bot'
-BOT_TOKEN = '6520128612:AAGUZa9F_A-Aszv98HAh4LvKPMBllPbFsPU'
+
+# import from os env var TELEGRAM_CHAT_ID and TELEGRAM_BOT_TOKEN
+CHAT_ID = os.environ.get('TELEGRAM_CHAT_ID')
+BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 
 NOTIFY = False
 TELEGRAM_STATUS = False
